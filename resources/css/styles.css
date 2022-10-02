@@ -1,4 +1,29 @@
-h1, h2 {
-    font-family: Helvetica, sans-serif;
-    text-align: center;
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #008080;
+}
+
+.maincontent {
+    background-color: #C3C3C3;
+    width: 90%;
+    margin: 3rem auto;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid rgba(0, 0, 0, .7);
+    border-bottom: 1px solid rgba(0, 0, 0, .7);
+}
+
+.topbar {
+    background-color: #010081;
+    margin: 2px;
+    padding: .5rem;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Oxygen Mono', monospace;
+    display: inline;
 }
