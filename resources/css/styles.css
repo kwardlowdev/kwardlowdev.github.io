@@ -9,12 +9,12 @@ html {
 }
 
 body {
-    background-color: #9dd8ff;
+    background-color: #64bea7;
 }
 
-/* Menu Styles */
+/* Top Bar & Menu Styles */
 
-.menucontent {
+.headcontent {
     background-color: #C3C3C3;
     border-top: 1px solid #FFFFFF;
     border-left: 1px solid #FFFFFF;
@@ -30,7 +30,7 @@ body {
 .topbar {
     background-color: #2e2d2d;
     margin: 2px;
-    padding: .5rem;
+    padding: .2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,16 +45,20 @@ body {
 
 .ico-links {
     list-style: none;
+    margin-top: 2px;
+    margin-right: .25rem;
 }
 
 .topbar li {
     display: inline;
+    
 }
 
 .ico {
     width: 1.75rem;
     height: 1.5rem;
     background-color: #C3C3C3;
-    border: 2px solid #2c2c2c;
+    border: 1px solid #2c2c2c;
     padding: 3px;
+    box-shadow: 0 0 2px #000000;
 }
