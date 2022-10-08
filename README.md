@@ -32,10 +32,5 @@ I appreciate anyone who comes to see this work in progress. I expect to radicall
 
 ## Contact - Hire Me!
 
-Kyle Wardlow
-
-email: kyle@kylewardlow.com
-
-github: https://github.com/kwardlowdev
-
-linkedin: https://www.linkedin.com/in/kwardlow/
+Kyle Wardlow  
+[E-mail](mailto:kyle@kylewardlow.com) - [Github](https://github.com/kwardlowdev) - [LinkedIn](https://www.linkedin.com/in/kwardlow/)  
