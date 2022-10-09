@@ -13,8 +13,7 @@ body {
 }
 
 /* Top Bar & Menu Styles */
-
-.headcontent {
+header {
     background-color: #C3C3C3;
     border-top: 1px solid #FFFFFF;
     border-left: 1px solid #FFFFFF;
@@ -61,4 +60,10 @@ body {
     border: 1px solid #2c2c2c;
     padding: 3px;
     box-shadow: 0 0 2px #000000;
+}
+
+/* Universal Styling For All Pages */
+
+main {
+    margin-top: 6rem;
 }
