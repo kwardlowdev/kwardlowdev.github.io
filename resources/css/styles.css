@@ -6,10 +6,20 @@
 html {
     font-size: 16px;
     font-family: 'Oxygen Mono', monospace;
+    color: #FFFFFF;
 }
 
 body {
-    background-color: #64bea7;
+    background-color: #afafaf;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.center {
+    text-align: center;
 }
 
 /* Top Bar & Menu Styles */
@@ -62,8 +72,54 @@ header {
     box-shadow: 0 0 2px #000000;
 }
 
-/* Universal Styling For All Pages */
+/* Main & Section Styling */
 
 main {
-    margin-top: 6rem;
+    margin-top: 5.5rem;
+}
+
+section {
+    border: 4px outset #dddddd;
+    background-color: #2E2D2D;
+    width: 70%;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
+}
+
+.portrait {
+    border-radius: 50%;
+    width: 30%;
+    margin-right: 2rem;
+    border: 3px solid #d1d1d1;
+    align-self: start;
+}
+
+.about-box {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.about-text {
+    display: inline-block;
+    width: 70%;
+    font-size: 1.25rem;
+    padding: 1.5rem;
+    background-color: rgba(116, 116, 116, .25);
+    border-radius: 10px;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    background-color: #2E2D2D;
+    width: 100%;
+    padding-top: .5rem;
 }
