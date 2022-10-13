@@ -79,9 +79,9 @@ main {
 }
 
 section {
-    border: 4px outset #dddddd;
+    border: 4px groove #dddddd;
     background-color: #2E2D2D;
-    width: 70%;
+    width: 75%;
     margin: 1rem auto;
     padding: 1rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
@@ -122,4 +122,15 @@ footer {
     background-color: #2E2D2D;
     width: 100%;
     padding-top: .5rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1250px) {
+    section {
+        width: 85%;
+    }
 }
