@@ -121,11 +121,8 @@ section {
 /* Projects Styles */
 
 #projbox {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
     align-items: center;
-    column-gap: 1rem;
-    margin: 2rem auto;
 }
 
 #projimg {
@@ -144,7 +141,7 @@ section {
 .projbtn {
     font-family: 'Lexend', sans-serif;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #383838;
     background-color: #C3C3C3;
     padding: .25rem;
