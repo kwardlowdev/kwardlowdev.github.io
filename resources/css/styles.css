@@ -16,6 +16,7 @@ body {
 h1 {
     font-size: 3rem;
     font-weight: 400;
+    border-bottom: 10px solid #C3C3C3;
 }
 
 .center {
@@ -105,6 +106,8 @@ section {
 .about-text {
     display: inline-block;
     width: 70%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 200;
     font-size: 1.25rem;
     padding: 1.5rem;
     background-color: rgba(116, 116, 116, .25);
@@ -114,6 +117,49 @@ section {
 .about-text p {
     margin-bottom: 1rem;
 }
+
+/* Projects Styles */
+
+#projbox {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 2rem auto;
+}
+
+#projimg {
+    border: 2px solid #C3C3C3;
+}
+
+.projtext {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 200;
+    padding: 1.5rem;
+    background-color: rgba(116, 116, 116, .25);
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.projbtn {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    color: #383838;
+    background-color: #C3C3C3;
+    padding: .25rem;
+    border: 2px solid #747474;
+    border-radius: 10px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.projbtn:hover {
+    background-color: #747474;
+    border: 2px solid #383838;
+    color: #000000;
+}
+
 
 /* Footer Styles */
 
@@ -132,5 +178,9 @@ footer {
 @media only screen and (max-width: 1250px) {
     section {
         width: 85%;
+    }
+
+    h1 {
+        font-size: 2.75rem;
     }
 }
