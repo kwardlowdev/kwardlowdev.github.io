@@ -36,4 +36,5 @@ Kyle Wardlow
 [E-mail](mailto:kyle@kylewardlow.com) - [Github](https://github.com/kwardlowdev) - [LinkedIn](https://www.linkedin.com/in/kwardlow/)  
 
 ### Project Changelog 
-10/13/22 - Realized I should probably keep a changelog. I added the skeleton of the project box to the main page. I need to add the javascript functionality to the project page (and have more projects) so that a user can cycle through my most recent projects within the main page. 
++ 10/13/22 - Realized I should probably keep a changelog. I added the skeleton of the project box to the main page. I need to add the javascript functionality to the project page (and have more projects) so that a user can cycle through my most recent projects within the main page.  
++ 10/14/22 - Added testing and functionality to featured projects, some basic responsiveness, and certification section. Still need to add more projects, about and project pages, and top menu.

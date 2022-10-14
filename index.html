@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;400&family=Oxygen+Mono&display=swap" rel="stylesheet">
+        <script defer src="./resources/scripts/projects.js"></script>
     </head>
     <body>
         <header>
@@ -48,28 +49,51 @@
                 <h2>Featured Projects</h2>
                 <div id="projbox" class="project-box">
                     <div id="projback">
-                        <button class="projbtn">&lt</button>
+                        <button onclick="updateProject(projectInfo, 'back')" class="projbtn">&laquo</button>
                     </div>
                     <img id="projimg" src="./resources/img/projthumbs/thumb1.png" alt="" />
-                    <div>
-                        <div class="projtext">
-                            <h3 id="projecttitle">Self-Development Bot</h3>
-                            <p id="projectdesc">A simple one-page site featuring a randomized set of affirmations, a personal reminder, and a randomly generated joke quote.</p>
-                            <h3>Technologies Used:</h3>
-                            <ul id="projecttech">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Vanilla JS</li>
-                            </ul>
-                        </div>
+                    <div class="projtext">
+                        <h3 id="projecttitle">Self-Development Bot</h3>
+                        <p id="projectdesc">A simple one-page site featuring a randomized set of affirmations, a personal reminder, and a randomly generated joke quote.</p>
+                        <h3>Technologies Used:</h3>
+                        <ul id="projecttech">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Vanilla JS</li>
+                        </ul>
+                        <a id="projlink" href="https://kwardlowdev.github.io/selfdevbot/" target="_blank">Check Out Here</a>
                     </div>
                     <div id="projfwd">
-                        <button class="projbtn">&gt</button>
+                        <button onclick="updateProject(projectInfo, 'fwd')" class="projbtn">&raquo</button>
                     </div>
                 </div>
             </section>
-            <section id="contactform">
-                <h2>Contact Me!</h2>
+            <section id="progress">
+                <h2>Certification Progress:</h2>
+                <ul class="certs">
+                    <li>Codecademy Learn Javascript: Complete (<a target="_blank" href="./resources/certs/KWardlow_IntroJavascript_100222.pdf">see certificate</a>)</li>
+                    <li>Codecademy Full-Stack Engineer: 
+                        <div class="progbar">
+                            <div style="width: 36%" class="progfill">
+                                36%
+                            </div>
+                        </div> 
+                    </li>
+                    <li>Codecademy Learn PHP: 
+                        <div class="progbar">
+                            <div style="width: 17%" class="progfill">
+                                17%
+                            </div>
+                        </div> 
+                    </li>
+                    <li>Codecademy Learn C++: 
+                        <div class="progbar">
+                            <div style="width: 19%" class="progfill">
+                                19%
+                            </div>
+                        </div> 
+                    </li>
+                </ul>
             </section>
         </main>
         <footer>
