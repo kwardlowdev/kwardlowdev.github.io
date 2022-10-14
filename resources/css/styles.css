@@ -19,6 +19,9 @@ h1 {
     border-bottom: 10px solid #C3C3C3;
 }
 
+h3 {
+    margin-top: .5rem;
+}
 .center {
     text-align: center;
 }
@@ -123,19 +126,29 @@ section {
 #projbox {
     display: flex;
     align-items: center;
+    margin: 1rem auto;
+    width: 100%;
 }
 
 #projimg {
     border: 2px solid #C3C3C3;
+    width: 25%;
+    margin-left: .5rem;
 }
 
 .projtext {
     font-family: 'Lexend', sans-serif;
     font-weight: 200;
     padding: 1.5rem;
+    margin: auto 1rem;
     background-color: rgba(116, 116, 116, .25);
     border-radius: 10px;
     line-height: 1.5;
+}
+
+.projtext ul {
+    list-style-type: circle;
+    margin-left: 2rem;
 }
 
 .projbtn {
