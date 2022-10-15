@@ -1,0 +1,76 @@
+#abtme {
+    margin-bottom: 3rem;
+}
+
+#abtme p, #abtme ul {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 200;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: rgba(116, 116, 116, .25);
+    border-radius: 10px;
+    line-height: 1.5;
+    box-shadow: 2px 2px 5px #212121;
+}
+
+#abtme img {
+    box-shadow: 2px 2px 5px #212121;
+}
+
+#abtme ul li {
+    margin-left: 2rem;
+}
+
+.about-wrap {
+    width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.withimg {
+    width: 45%;
+}
+
+.abtimg {
+    width: 45%;
+    max-width: 300px;
+    margin: .5rem 0;
+}
+
+.abt-over {
+    width: 100%;
+    background-color: rgba(36, 36, 36, 0.897);
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.abtimg img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1250px) {
+    .about-wrap {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .about-wrap {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 650px) { 
+    .about-wrap {
+        width: 95%;
+    }
+}
