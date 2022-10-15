@@ -35,7 +35,12 @@ I appreciate anyone who comes to see this work in progress. I expect to radicall
 Kyle Wardlow  
 [E-mail](mailto:kyle@kylewardlow.com) - [Github](https://github.com/kwardlowdev) - [LinkedIn](https://www.linkedin.com/in/kwardlow/)  
 
-### Project Changelog 
+## Project Changelog 
 + 10/13/22 - Realized I should probably keep a changelog. I added the skeleton of the project box to the main page. I need to add the javascript functionality to the project page (and have more projects) so that a user can cycle through my most recent projects within the main page.  
 + 10/14/22 - Added testing and functionality to featured projects, some basic responsiveness, and certification section. Still need to add more projects, about and project pages, and top menu.
-+ 10/15/22 - Added top menu and more responsiveness along with about page. Need to do some testing on small screens. In future, flesh out projects, and eventually refactor site design to utilize new technologies as I learn them.
++ 10/15/22 - Added top menu and more responsiveness to handle mobile screens. Added "To top" to about. Updated progress markers.
+
+## To Do:
++ Add more projects.
++ Update tech used as I learn.
++ Add project page.
